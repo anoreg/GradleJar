@@ -1,0 +1,8 @@
+apply plugin: 'java'
+ 
+jar {
+    manifest {
+    	baseName 'SuperCoolLibrary'
+        version '1.0'
+    }
+}
